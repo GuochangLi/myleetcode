@@ -1,14 +1,7 @@
+package Tree.binarytree;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.tree.TreeNode;
-
-public class Main {
-    public static void main(String[] args) {
-        
-    }
-    
-}
 
 /**
  * Definition for a binary tree node.
@@ -26,18 +19,18 @@ public class Main {
  * }
  */
 
-class Solution {
-    public List<Integer> inorderTraversal(TreeNode root) {
+public class postorder {
+    public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> nodes = new ArrayList<> ();
-        inorder(root, nodes);
+        postorder(root, nodes);
         return nodes;
     }
-    public void inorder(TreeNode root, List<Integer> nodes){
+    public void postorder(TreeNode root, List<Integer> nodes){
         if(root == null){
             return;
         }
-        inorder(root.left, nodes);
+        postorder(root.left, nodes);
+        postorder(root.right, nodes);
         nodes.add(root.val);
-        inorder(root.right, nodes);
     }
 }
