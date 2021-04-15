@@ -16,7 +16,7 @@
  * }
  */
 
-public class n6 {
+public class n206 {
     public static void main(String[] args) {
        
     }
