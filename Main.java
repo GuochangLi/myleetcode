@@ -1,11 +1,10 @@
-import java.text.StringCharacterIterator;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.management.openmbean.OpenType;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        int[] nums = {-1,2,1,-4};
+        System.out.println(threeSumClosest(nums, 1));
     }
+    
     
 }
