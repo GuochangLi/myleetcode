@@ -1,16 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-public class Main {
-    public static void main(String[] args) {
-        int[] nums = {-483,-464,-417,-372,-315,-303,-283,-282,-267,-265,-262,-256,-254,-248,-247,-245,-200,-200,-194,-192,-183,-155,-83,-69,-59,-44,-42,-40,-24,-18,-14,-11,0,4,10,28,38,59,87,126,135,147,151,152,162,187,211,214,218,248,274,282,287,288,329,331,338,364,366,384,405,476,477,488
-            };
-        System.out.println(fourSum(nums, 1563));
-    }
-    
+public class n18 {
     public static List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
         List<List<Integer>> output = new ArrayList<>();
