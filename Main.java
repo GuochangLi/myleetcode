@@ -7,7 +7,9 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(generateParenthesis(3));
     }
-    
+    public static List<String> generateParenthesis(int n) {
+
+    }
 }
